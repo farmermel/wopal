@@ -6,12 +6,24 @@ body {
 header {
   background-color: #1BCEB8;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: #383838;
 }
 
 main {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+aside {
+  width: 30%;
+  border-right: solid 1px #383838;
 }
 
 aside p,
@@ -44,6 +56,7 @@ label {
 }
 
 .main-sections {
+  margin: auto;
   width: 50%;
 }
 
