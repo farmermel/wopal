@@ -5,76 +5,98 @@
     <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="disappear">
       <img src="assets/runner.svg" alt="running shoe" class="shoe">
       <link href="styles.css" rel="stylesheet" type="text/css">
       <h1>WoPal</h1>
     </header>
+    <nav class="headerappear">
+      <img src="assets/people.svg" alt="person" class="shoe">
+      <img src="assets/add.svg" alt="pluss" class="shoe">
+      <img src="assets/calendar.svg" alt="calendar" class="shoe">
+    </nav>
     <div class="content-container">
-      <aside>
-        <article>
+      <aside class="disappear">
+        <article class="disappear">
           <h3 class="week">Past Week</h3>
           <h5>TOTALS</h5>
           <p>Distance: 30 miles</p>
           <p>Time exercising: 6 hrs</p>
         </article>
-        <article>
+        <article class="disappear">
           <h3 class="yesterday">Yesterday</h3>
           <p>Biked: 10 miles</p>
           <p>Weights: 6 hrs</p>
         </article>
-        <article>
+        <article class="disappear">
           <h3 class="yesterday">Yesterday</h3>
           <p>Biked: 10 miles</p>
           <p>Weights: 6 hrs</p>
         </article>
-        <article>
+        <article class="disappear">
           <h3 class="yesterday">Yesterday</h3>
           <p>Biked: 10 miles</p>
           <p>Weights: 6 hrs</p>
         </article>
-        <article>
+        <article class="disappear">
           <h3 class="yesterday">Yesterday</h3>
           <p>Biked: 10 miles</p>
           <p>Weights: 6 hrs</p>
         </article>
-        <article>
+        <article class="disappear">
           <h3 class="yesterday">Yesterday</h3>
           <p>Biked: 10 miles</p>
           <p>Weights: 6 hrs</p>
         </article>
       </aside>
       <main>
-        <section class="mainsections">
-          <h2>Today's Goal</h2>
-          <img src="assets/cycling.svg" alt="foot and wheel" class="cycle">
-          <div>
-            <p>swim 1 mile</p>
-            <img src="assets/checked.svg" alt="checked" class="checked">
-          </div>
-        </section>
-        <section class="mainsections">
-          <form>
-            <label> Type of Exercise
-              <select >
-                <option value="swimming">Select Option</option>
-              </select>
-            </label>
-            <label> Type of Exercise
-              <select >
-                <option value="swimming">Select Option</option>
-              </select>
-            </label>
-            <label> Type of Exercise
-              <select >
-                <option value="swimming">Select Option</option>
-              </select>
-            </label>
+        <div class='top-wrapper'>
+          <section class="mainsections cycle-container">
+            <h2>Today's Goal</h2>
+            <img src="assets/cycling.svg" alt="foot and wheel" class="cycle">
+            <div class="swim-div">
+              <p>swim 1 mile</p>
+              <img src="assets/checked.svg" alt="checked" class="checked disappear">
+            </div>
+          </section>
+          <section class="reappear">
+            <article class="reappear">
+              <h3 class="yesterday">Yesterday</h3>
+              <p>Biked: 10 miles</p>
+              <p>Weights: 6 hrs</p>
+            </article>
+            <article class="reappear">
+              <h3 class="week">Past Week</h3>
+              <h5>TOTALS</h5>
+              <p>Distance: 30 miles</p>
+              <p>Time exercising: 6 hrs</p>
+            </article>
+            <button>SEE MORE</button>
+          </section>
+          <section class="mainsections formsection">
+            <h2>Create Goal</h2>
+            <form>
+              <label> Type of Exercise
+                <select >
+                  <option value="swimming">Select Option</option>
+                </select>
+              </label>
+              <label> Distance or Time
+                <select >
+                  <option value="swimming">Select Option</option>
+                </select>
+              </label>
+              <label> Date
+                <select >
+                  <option value="swimming">Select Option</option>
+                </select>
+              </label>
+            </form>
             <button>ADD GOAL</button>
-          </form>
-        </section>
-        <section class="mainsections">
-          <img src="assets/actualcalendar.png" alt="calendar" />
+          </section>
+        </div>
+        <section class="mainsections calendar">
+          <img src="assets/actualcalendar.png" alt="calendar" class="calendarimg" />
         </section>
       </main>
     </div>
