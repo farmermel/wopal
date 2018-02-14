@@ -1,4 +1,5 @@
 # wopal
+Hackathon project to create an html / css layout from a static comp in 2.5 hours.
 
 ## On GitHub Pages
 https://farmermel.github.io/wopal
