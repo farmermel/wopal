@@ -8,6 +8,8 @@ header {
 
 main {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 aside p,
@@ -20,6 +22,17 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.main-sections {
+  width: 50%;
 }
 
 .week {
