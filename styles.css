@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #1BCEB8;
+}
+
+main {
+  display: flex;
+}
+
+aside p,
+aside h3 {
+  display: inline-block;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.week {
+  border-bottom: 3px solid #09ADB5;
+}
+
+.yesterday {
+  border-bottom: 3px solid #B4436C;
+}
+
+.content-container {
+  display: flex;
+}
+
+.shoe {
+  width: 40px;
+}
+
+.cycle {
+  width: 300px;
+}
+
+.checked {
+  width: 50px;
+}
