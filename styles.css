@@ -12,6 +12,10 @@ header {
   align-items: center;
 }
 
+button:hover {
+  box-shadow: inset 0px 0px 14px 0px #fff;
+}
+
 header h1 {
   color: #383838;
 }
