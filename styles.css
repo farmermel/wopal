@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  font-family: 'Istok Web', sans-serif;
 }
 
 header {
   background-color: #1BCEB8;
+  font-weight: 700;
 }
 
 main {
@@ -29,6 +31,16 @@ form {
   flex-direction: column;
   align-items: center;
   width: 400px;
+}
+
+select {
+  background-color: #CCC;
+  min-width: 200px;
+  text-align: center;
+}
+
+label {
+  font-weight: 400;
 }
 
 .main-sections {
